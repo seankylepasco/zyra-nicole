@@ -21,14 +21,6 @@
   .pricingTable > .pricingTable-subtitle {
     margin-bottom: 30px;
   }
-  .mySlides img {
-    height: auto;
-    width: auto;
-  }
-  a {
-    color: #070707 !important;
-    text-decoration: underline !important;
-  }
 }
 .pricingTable-firstTable {
   list-style: none;
@@ -351,8 +343,7 @@
   }
 }
 .pricingTable-firstTable_table__getstart:active {
-  box-shadow: inset 0 0 10px 1px rgb(102, 165, 100),
-    0px 40px 29px -19px rgba(102, 172, 100, 0.95);
+  box-shadow: inset 0 0 10px 1px rgb(102, 165, 100), 0px 40px 29px -19px rgba(102, 172, 100, 0.95);
   transform: scale(0.95) translateY(-9px);
 }
 @media screen and (max-width: 767px) {
@@ -393,4 +384,4 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

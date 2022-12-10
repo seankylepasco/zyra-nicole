@@ -1,0 +1,153 @@
+button {
+  background-color: transparent;
+  /* color: white; */
+  border: none;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #626161;
+}
+
+.smaller-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background: url("https://media.istockphoto.com/id/542294850/vector/medicine-seamless-pattern.jpg?s=612x612&w=0&k=20&c=ltbU-kNr0PxoDzgxQOLQTD8AErAPC4_ccaNT09wnRfY=");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.smaller-pic:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  border-bottom: 2px solid pink;
+  padding-bottom: 20px;
+}
+
+.footer-lower {
+  text-align: center;
+  background-color: #292929;
+  color: grey;
+  padding: 12px 0 10px;
+}
+
+h2 {
+  color: #474e5d;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  margin: 8px;
+  height: 700px !important;
+}
+
+.card img {
+  width: 100%;
+  height: 610px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  /* background-color: #292929; */
+  color: #292929;
+}
+
+.lower-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fbf9f9;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.div-row {
+  display: flex;
+  flex-direction: row;
+}
+.button:hover {
+  background-color: #555;
+}
+
+.center {
+  text-align: center;
+}
+.center a {
+  font-weight: 200px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+  button {
+    margin: 20px;
+  }
+}
