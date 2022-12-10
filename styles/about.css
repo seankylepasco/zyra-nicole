@@ -1,3 +1,7 @@
+* {
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+}
 button {
   background-color: transparent;
   /* color: white; */
@@ -40,6 +44,8 @@ h1 {
   line-height: 1.2;
   border-bottom: 2px solid pink;
   padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .footer-lower {
@@ -134,6 +140,9 @@ html {
   background-color: #555;
 }
 
+p {
+  font-size: 30px;
+}
 .center {
   text-align: center;
 }
@@ -149,5 +158,8 @@ html {
   }
   button {
     margin: 20px;
+  }
+  p {
+    font-size: 20px;
   }
 }

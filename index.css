@@ -5,10 +5,13 @@
   font-weight: 400;
   font-style: normal;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .box-desc {
     display: none;
   }
+}
+* {
+  font-weight: bolder !important;
 }
 ul.custom-list {
   list-style: none;
@@ -770,7 +773,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 18px;
+  font-size: 28px;
 }
 abbr[data-original-title],
 abbr[title] {
@@ -1171,22 +1174,22 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
+@media (min-width: 600px) {
   .container {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .container {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 600px) {
   .container {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   .container {
     max-width: 1140px;
   }
@@ -1202,13 +1205,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
+@media (min-width: 600px) {
   .container,
   .container-sm {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .container,
   .container-md,
   .container-sm {
@@ -4369,7 +4372,7 @@ input[type="submit"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  margin-left: 100px;
+  margin-left: 30px;
   margin-top: 20px;
 }
 .nav-link {
@@ -10041,6 +10044,7 @@ footer .wg-footer h3 {
   border-bottom: 2px solid pink;
   margin-bottom: 20px;
   padding-bottom: 15px;
+  font-size: 50px !important;
 }
 .about-team-section {
   padding: 25px 0;
@@ -10359,6 +10363,7 @@ footer .wg-footer h3 {
   text-decoration: none !important;
   font-size: 17px;
   display: block;
+  color: black !important;
 }
 
 .topnav a.icon {
@@ -10378,7 +10383,7 @@ footer .wg-footer h3 {
   background-color: transparent;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .topnav {
     display: block;
   }
@@ -10543,18 +10548,23 @@ header .nav .navbar-items li a {
 }
 
 .balai-png {
-  width: 200px !important;
-  height: 200px !important;
+  width: 300px !important;
+  height: 150px !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .balai-png {
-    width: 100px !important;
-    height: 100px !important;
+    width: 300px !important;
+    height: 150px !important;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .nav {
     margin-left: 0px !important;
+  }
+
+  p,
+  li {
+    font-size: 20px !important;
   }
 }
